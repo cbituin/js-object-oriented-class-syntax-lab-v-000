@@ -6,12 +6,12 @@ class BoardMember {
   }
   
   veto(){
-    'No, I must disagree';
+    return 'No, I must disagree';
   }
 }
 
 class Ceo extends BoardMember {
   hireEmployee(){
-    'Welcome aboard!';
+    return 'Welcome aboard!';
   }
 }
