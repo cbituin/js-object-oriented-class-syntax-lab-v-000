@@ -6,7 +6,7 @@ class BoardMember {
   }
   
   veto(){
-    'No, I must disagree'
+    'No, I must disagree';
   }
 }
 
